@@ -2,26 +2,30 @@ package fang.java.lessons;
 
 public class Cat {
     private int age;
+    private String name;
+
+    public Cat(int age, String name) {
+        this.age = age;
+        this.name = name;
+    }
 
     public int getAge() {
-        return age;
+        return this.age;
     }
 
     public void setAge(int age) {
         this.age = age;
     }
 
-    private String name;
-
     public void setName(String name) {
         this.name = name;
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public void say() {
-        System.out.println(getName() + ": Meow Meow");
+        System.out.println(getName() + ": Meow Meow! age: " + getAge());
     }
 }
