@@ -4,7 +4,7 @@ import java.util.Random;
 
 class RandomTest {
     @Test
-    public void TestMethod(){
+    public void TestMethod() {
         Random random = new Random();
 
         int x = random.nextInt();
@@ -13,7 +13,7 @@ class RandomTest {
 
         float z = random.nextFloat();
 
-        System.out.printf("Random integer: %d, random double: %f, random float: %f \n", x,y,z);
+        System.out.printf("Random integer: %d, random double: %f, random float: %f \n", x, y, z);
 
 
     }
