@@ -2,12 +2,18 @@ package fang.java.lessons;
 
 public class Cat {
     private int age;
-    private String name;
-    public Cat() {
-        age = 0;
-        name = "John";
+
+    public int getAge() {
+        return age;
     }
-    public void setName(String name){
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    private String name;
+
+    public void setName(String name) {
         this.name = name;
     }
 
@@ -16,6 +22,6 @@ public class Cat {
     }
 
     public void say() {
-        System.out.println("Meow Meow");
+        System.out.println(getName() + ": Meow Meow");
     }
 }
