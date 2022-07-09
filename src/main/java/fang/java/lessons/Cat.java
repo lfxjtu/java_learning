@@ -7,7 +7,13 @@ public class Cat {
         age = 0;
         name = "John";
     }
+    public void setName(String name){
+        this.name = name;
+    }
 
+    public String getName() {
+        return name;
+    }
 
     public void say() {
         System.out.println("Meow Meow");
