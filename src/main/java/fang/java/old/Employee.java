@@ -1,4 +1,4 @@
-//import java.io.*;
+package fang.java.old;//import java.io.*;
 
 public class Employee {
     String name;
@@ -6,12 +6,12 @@ public class Employee {
     String designation;
     double salary;
 
-    // This is the constructor of the class Employee
+    // This is the constructor of the class fang.java.old.Employee
     public Employee(String name) {
         this.name = name;
     }
 
-    // Assign the age of the Employee to the variable age.
+    // Assign the age of the fang.java.old.Employee to the variable age.
     public void empAge(int empAge) {
         age = empAge;
     }
@@ -26,9 +26,9 @@ public class Employee {
         salary = empSalary;
     }
 
-    /* Print the Employee details */
+    /* Print the fang.java.old.Employee details */
     public void printEmployee() {
-        System.out.println("Employee Name: " + name);
+        System.out.println("fang.java.old.Employee Name: " + name);
         System.out.println("Age: " + age);
         System.out.println("Designation: " + designation);
         System.out.println("Salary: " + salary);
