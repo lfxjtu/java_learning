@@ -46,6 +46,6 @@ public class Cat extends Animal {
 
     @Override
     public void eat() {
-        System.out.println("Nom Nom Nom");
+        System.out.println("Nom Nom Nom " + Math.PI);
     }
 }
