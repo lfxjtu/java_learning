@@ -1,6 +1,8 @@
 package fang.java.lessons;
 
-public class Cat {
+import java.io.Serializable;
+
+public class Cat implements Serializable {
     private int age;
     private String name;
 
