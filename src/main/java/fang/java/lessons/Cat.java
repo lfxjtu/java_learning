@@ -4,6 +4,10 @@ public class Cat {
     private int age;
     private String name;
 
+    public Cat() {
+        this(0, "NoName");
+    }
+
     public Cat(int age, String name) {
         this.age = age;
         this.name = name;
