@@ -31,7 +31,6 @@ public class Cat extends Animal {
         return this.name;
     }
 
-
     public String getPreferenceFood() {
         return preferenceFood;
     }
@@ -40,12 +39,16 @@ public class Cat extends Animal {
         this.preferenceFood = preferenceFood;
     }
 
-    public void say() {
-        System.out.println(getName() + ": Meow Meow! age: " + getAge());
-    }
-
     @Override
     public void eat() {
-        System.out.println("Nom Nom Nom " + Math.PI);
+        System.out.println("Nom Nom Nom");
+    }
+
+    /**
+     *
+     */
+    @Override
+    public void makeNoise() {
+        System.out.println("Meow Meow");
     }
 }

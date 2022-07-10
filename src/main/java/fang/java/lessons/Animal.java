@@ -1,6 +1,6 @@
 package fang.java.lessons;
 
-public class Animal {
+public abstract class Animal {
     private String name;
     private String colour;
 
@@ -20,7 +20,7 @@ public class Animal {
         this.name = name;
     }
 
-    public void eat() {
-        System.out.println("munch munch munch");
-    }
+    public abstract void eat();
+
+    public abstract void makeNoise();
 }

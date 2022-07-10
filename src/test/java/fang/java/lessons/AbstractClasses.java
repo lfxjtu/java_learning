@@ -1,9 +1,9 @@
 package fang.java.lessons;
 
-public class HowToThis {
+public class AbstractClasses {
     public static void main(String[] args) {
-        Cat myCat = new Cat(1, "Kitty");
-        Cat myCat2 = new Cat();
+        Cat myCat = new Cat();
         myCat.makeNoise();
+        myCat.eat();
     }
 }
