@@ -1,3 +1,5 @@
+package fang.java.old;
+
 import java.util.Random;
 
 public class RandomTest002 {
