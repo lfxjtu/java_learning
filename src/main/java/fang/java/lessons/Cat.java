@@ -1,10 +1,10 @@
 package fang.java.lessons;
 
-import java.io.Serializable;
-
-public class Cat implements Serializable {
+public class Cat extends Animal {
     private int age;
     private String name;
+
+    private String preferenceFood;
 
     public Cat() {
         this(0, "NoName");
@@ -31,7 +31,21 @@ public class Cat implements Serializable {
         return this.name;
     }
 
+
+    public String getPreferenceFood() {
+        return preferenceFood;
+    }
+
+    public void setPreferenceFood(String preferenceFood) {
+        this.preferenceFood = preferenceFood;
+    }
+
     public void say() {
         System.out.println(getName() + ": Meow Meow! age: " + getAge());
+    }
+
+    @Override
+    public void eat() {
+        System.out.println("Nom Nom Nom");
     }
 }
