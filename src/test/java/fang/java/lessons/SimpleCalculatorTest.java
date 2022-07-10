@@ -11,4 +11,10 @@ class SimpleCalculatorTest {
         var calculator = new SimpleCalculator();
         assertEquals(4, calculator.addInt(2, 2));
     }
+
+    @Test
+    void threeAddSevenEqualsTen() {
+        var calculator = new SimpleCalculator();
+        assertEquals(10, calculator.addInt(3, 7));
+    }
 }
