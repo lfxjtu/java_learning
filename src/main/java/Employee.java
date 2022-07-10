@@ -1,17 +1,17 @@
 //import java.io.*;
 
-public class employee {
+public class Employee {
     String name;
     int age;
     String designation;
     double salary;
 
     // This is the constructor of the class Employee
-    public employee(String name) {
+    public Employee(String name) {
         this.name = name;
     }
 
-    // Assign the age of the employee to the variable age.
+    // Assign the age of the Employee to the variable age.
     public void empAge(int empAge) {
         age = empAge;
     }
@@ -26,7 +26,7 @@ public class employee {
         salary = empSalary;
     }
 
-    /* Print the employee details */
+    /* Print the Employee details */
     public void printEmployee() {
         System.out.println("Employee Name: " + name);
         System.out.println("Age: " + age);
