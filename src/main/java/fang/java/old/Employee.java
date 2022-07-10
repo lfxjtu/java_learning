@@ -1,4 +1,4 @@
-package fang.java.old;//import java.io.*;
+package fang.java.old;
 
 public class Employee {
     String name;
@@ -33,5 +33,4 @@ public class Employee {
         System.out.println("Designation: " + designation);
         System.out.println("Salary: " + salary);
     }
-
 }
